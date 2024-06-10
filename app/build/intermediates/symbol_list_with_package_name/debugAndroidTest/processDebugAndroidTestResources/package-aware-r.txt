@@ -1,0 +1,2 @@
+com.example.a5755.sosoready.test
+string app_name

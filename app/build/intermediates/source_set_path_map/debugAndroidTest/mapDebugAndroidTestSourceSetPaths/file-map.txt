@@ -1,0 +1,5 @@
+com.example.a5755.sosoready.test.app-rules-0.5-0 /Users/alan/.gradle/caches/transforms-4/8236a91d8cc3be8a5035a0624a1cfbf8/transformed/rules-0.5/res
+com.example.a5755.sosoready.test.app-androidTest-1 /Users/alan/StudioProjects/social-ready/app/build/generated/res/resValues/androidTest/debug
+com.example.a5755.sosoready.test.app-mergeDebugAndroidTestResources-2 /Users/alan/StudioProjects/social-ready/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.example.a5755.sosoready.test.app-mergeDebugAndroidTestResources-3 /Users/alan/StudioProjects/social-ready/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.example.a5755.sosoready.test.app-debugAndroidTest-4 /Users/alan/StudioProjects/social-ready/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

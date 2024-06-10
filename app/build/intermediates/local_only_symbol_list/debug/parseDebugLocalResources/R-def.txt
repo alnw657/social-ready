@@ -1,0 +1,29 @@
+R_DEF: Internal format may change without notice
+local
+anim slide_in_left
+anim slide_in_right
+anim slide_out_left
+anim slide_out_right
+color colorAccent
+color colorPrimary
+color colorPrimaryDark
+dimen activity_horizontal_margin
+dimen activity_vertical_margin
+drawable alaska
+drawable bg1
+drawable bw
+drawable normal
+drawable pinkie
+drawable red
+id activity_main
+id homebutton
+id image_view
+id opencamerabutton
+id openphotosbutton
+id save_image
+layout activity_main
+layout image_effect
+layout image_save
+mipmap ic_launcher
+string app_name
+style AppTheme

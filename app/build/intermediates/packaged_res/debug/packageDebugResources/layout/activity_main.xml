@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a5755.sosoready.MainActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+
+
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="So-So Ready"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="39dp"
+        android:layout_marginBottom="120dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Camera"
+        android:id="@+id/opencamerabutton"
+        android:layout_marginTop="100dp"
+        android:onClick="OpenCamera"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Photos"
+        android:id="@+id/openphotosbutton"
+        android:onClick="OpenPhotos"
+        />
+
+
+</LinearLayout>
+

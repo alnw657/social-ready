@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:background="#9014ab"
+        android:gravity="right">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:background="#c41ce9"
+        android:text="Save"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+android:layout_marginTop="7dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/save_image"
+        android:onClick="savebutton"
+        />
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    >
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:background="#d3d3d3"
+        />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       >
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/normal"
+            android:text="Normal"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:onClick="normaleff"/>
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/bw"
+            android:text="Bn'W"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:onClick="bnweff"/>
+
+        <Button
+
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/alaska"
+            android:text="Alaska"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:onClick="alaskaeff"/>
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/pinkie"
+            android:text="Pinkie"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:onClick="pinkieeff"/>
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/red"
+            android:text="Red"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:onClick="redeff"/>
+
+
+    </LinearLayout>
+
+    </HorizontalScrollView>
+</LinearLayout>
+</LinearLayout>

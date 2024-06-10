@@ -1,0 +1,73 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.a5755.sosoready"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+9        android:targetSdkVersion="23" />
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->/Users/alan/StudioProjects/social-ready/app/src/main/AndroidManifest.xml:3:5-79
+11-->/Users/alan/StudioProjects/social-ready/app/src/main/AndroidManifest.xml:3:22-77
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/Users/alan/StudioProjects/social-ready/app/src/main/AndroidManifest.xml:4:5-80
+12-->/Users/alan/StudioProjects/social-ready/app/src/main/AndroidManifest.xml:4:22-78
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->/Users/alan/StudioProjects/social-ready/app/src/main/AndroidManifest.xml:5:5-64
+13-->/Users/alan/StudioProjects/social-ready/app/src/main/AndroidManifest.xml:5:22-62
+14
+15    <uses-feature android:name="android.hardware.camera" />
+15-->/Users/alan/StudioProjects/social-ready/app/src/main/AndroidManifest.xml:6:5-60
+15-->/Users/alan/StudioProjects/social-ready/app/src/main/AndroidManifest.xml:6:19-57
+16
+17    <application
+17-->/Users/alan/StudioProjects/social-ready/app/src/main/AndroidManifest.xml:7:5-26:19
+18        android:allowBackup="true"
+18-->/Users/alan/StudioProjects/social-ready/app/src/main/AndroidManifest.xml:8:9-35
+19        android:debuggable="true"
+20        android:exported="true"
+20-->/Users/alan/StudioProjects/social-ready/app/src/main/AndroidManifest.xml:13:9-32
+21        android:extractNativeLibs="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->/Users/alan/StudioProjects/social-ready/app/src/main/AndroidManifest.xml:9:9-43
+23        android:label="@string/app_name"
+23-->/Users/alan/StudioProjects/social-ready/app/src/main/AndroidManifest.xml:10:9-41
+24        android:supportsRtl="true"
+24-->/Users/alan/StudioProjects/social-ready/app/src/main/AndroidManifest.xml:11:9-35
+25        android:testOnly="true"
+26        android:theme="@style/AppTheme" >
+26-->/Users/alan/StudioProjects/social-ready/app/src/main/AndroidManifest.xml:12:9-40
+27        <activity
+27-->/Users/alan/StudioProjects/social-ready/app/src/main/AndroidManifest.xml:14:9-21:20
+28            android:name="com.example.a5755.sosoready.MainActivity"
+28-->/Users/alan/StudioProjects/social-ready/app/src/main/AndroidManifest.xml:14:19-74
+29            android:screenOrientation="portrait" >
+29-->/Users/alan/StudioProjects/social-ready/app/src/main/AndroidManifest.xml:15:13-49
+30            <intent-filter>
+30-->/Users/alan/StudioProjects/social-ready/app/src/main/AndroidManifest.xml:16:13-20:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->/Users/alan/StudioProjects/social-ready/app/src/main/AndroidManifest.xml:17:17-69
+31-->/Users/alan/StudioProjects/social-ready/app/src/main/AndroidManifest.xml:17:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->/Users/alan/StudioProjects/social-ready/app/src/main/AndroidManifest.xml:19:17-77
+33-->/Users/alan/StudioProjects/social-ready/app/src/main/AndroidManifest.xml:19:27-74
+34            </intent-filter>
+35        </activity>
+36        <activity
+36-->/Users/alan/StudioProjects/social-ready/app/src/main/AndroidManifest.xml:22:9-23:51
+37            android:name="com.example.a5755.sosoready.ImageEffect"
+37-->/Users/alan/StudioProjects/social-ready/app/src/main/AndroidManifest.xml:22:19-73
+38            android:screenOrientation="portrait" />
+38-->/Users/alan/StudioProjects/social-ready/app/src/main/AndroidManifest.xml:23:13-49
+39        <activity
+39-->/Users/alan/StudioProjects/social-ready/app/src/main/AndroidManifest.xml:24:9-25:61
+40            android:name="com.example.a5755.sosoready.SaveActivity"
+40-->/Users/alan/StudioProjects/social-ready/app/src/main/AndroidManifest.xml:24:19-74
+41            android:screenOrientation="portrait" />
+41-->/Users/alan/StudioProjects/social-ready/app/src/main/AndroidManifest.xml:25:13-49
+42    </application>
+43
+44</manifest>
