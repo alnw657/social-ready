@@ -6,17 +6,13 @@ import android.graphics.BitmapFactory;
 import android.graphics.ColorFilter;
 import android.graphics.ColorMatrixColorFilter;
 import android.graphics.PorterDuff;
-import android.media.Image;
 import android.media.MediaScannerConnection;
-import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
-import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
-import android.graphics.Bitmap;
 import android.widget.Toast;
 
 import java.io.ByteArrayOutputStream;
@@ -24,7 +20,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Calendar;
-import java.util.Random;
+
 
 /**
  * Created by Alan on 2/7/2018.
