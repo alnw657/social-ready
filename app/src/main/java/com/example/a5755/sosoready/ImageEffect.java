@@ -97,8 +97,8 @@ public class ImageEffect extends AppCompatActivity{
 
         // Use MediaStore API to insert the image into the device's MediaStore
         ContentValues values = new ContentValues();
-        values.put(MediaStore.Images.Media.DISPLAY_NAME, "image_" + System.currentTimeMillis() + ".jpg");
-        values.put(MediaStore.Images.Media.MIME_TYPE, "image/jpeg");
+        values.put(MediaStore.Images.Media.DISPLAY_NAME, "image_" + System.currentTimeMillis() + ".png");
+        values.put(MediaStore.Images.Media.MIME_TYPE, "image/png");
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
             values.put(MediaStore.Images.Media.RELATIVE_PATH, Environment.DIRECTORY_PICTURES);
@@ -110,8 +110,8 @@ public class ImageEffect extends AppCompatActivity{
 
         try {
             OutputStream os = getContentResolver().openOutputStream(imageUri);
-            bitmap.compress(Bitmap.CompressFormat.JPEG, IMAGE_COMPRESSION_QUALITY, os);
             if (os != null) {
+                bitmap.compress(Bitmap.CompressFormat.JPEG, 100, os); // Use PNG format
                 os.close();
             }
             Toast.makeText(this, "Image saved successfully", Toast.LENGTH_SHORT).show();

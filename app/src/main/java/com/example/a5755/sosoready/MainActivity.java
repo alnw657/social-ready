@@ -24,11 +24,10 @@ public class MainActivity extends AppCompatActivity {
     private Button photobtn;
     String stringPath;
 
-    private static final  String IMAGE_DIRECTORY = "/imageAPP";
     private final int GALLERY = 1, CAMERA = 2;
 
     private static final int CAMERA_PERMISSION_REQUEST_CODE = 100;
-    private static final int CAMERA_REQUEST_CODE = 101;
+    //private static final int CAMERA_REQUEST_CODE = 101;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void startCamera() {
         Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-        startActivityForResult(intent, CAMERA_REQUEST_CODE);
+        startActivityForResult(intent, CAMERA);
     }
 
 
@@ -83,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
                    Intent intent = new Intent(this, ImageEffect.class);
 
                    ByteArrayOutputStream bs = new ByteArrayOutputStream();
-                   bitmap.compress(Bitmap.CompressFormat.JPEG, 20, bs);
+                   bitmap.compress(Bitmap.CompressFormat.JPEG, 100, bs);
                    intent.putExtra("byteArray", bs.toByteArray());
                    startActivity(intent);
                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
@@ -97,13 +96,13 @@ public class MainActivity extends AppCompatActivity {
 
             }
         }
-        else if (requestCode == CAMERA_REQUEST_CODE)
+        else if (requestCode == CAMERA)
         {
 
                 Bitmap thumbnail = (Bitmap) data.getExtras().get("data");
                 Intent takephoto =  new Intent(this,ImageEffect.class);
             ByteArrayOutputStream bs = new ByteArrayOutputStream();
-            thumbnail.compress(Bitmap.CompressFormat.PNG, 50, bs);
+            thumbnail.compress(Bitmap.CompressFormat.JPEG, 100, bs);
             takephoto.putExtra("byteArray", bs.toByteArray());
             startActivity(takephoto);
 

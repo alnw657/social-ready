@@ -1,4 +1,4 @@
-#Tue Jun 11 16:23:15 AEST 2024
+#Tue Jun 11 17:07:21 AEST 2024
 base.0=/Users/alan/StudioProjects/social-ready/app/build/intermediates/dex/debugAndroidTest/mergeDexDebugAndroidTest/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

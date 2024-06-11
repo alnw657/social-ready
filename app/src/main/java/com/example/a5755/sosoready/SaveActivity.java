@@ -16,14 +16,6 @@ public class SaveActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.image_save);
-
-
-
-
-
-
-
-
     }
 
     public void homeclick(View view) {

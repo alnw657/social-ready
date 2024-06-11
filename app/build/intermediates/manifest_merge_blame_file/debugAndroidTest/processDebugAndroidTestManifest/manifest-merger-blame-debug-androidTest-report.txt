@@ -3,32 +3,32 @@
 3    package="com.example.a5755.sosoready.test" >
 4
 5    <uses-sdk
-5-->/Users/alan/StudioProjects/social-ready/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest14310182728478052075.xml:5:5-74
+5-->/Users/alan/StudioProjects/social-ready/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest12988146405643269175.xml:5:5-74
 6        android:minSdkVersion="17"
-6-->/Users/alan/StudioProjects/social-ready/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest14310182728478052075.xml:5:15-41
+6-->/Users/alan/StudioProjects/social-ready/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest12988146405643269175.xml:5:15-41
 7        android:targetSdkVersion="23" />
-7-->/Users/alan/StudioProjects/social-ready/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest14310182728478052075.xml:5:42-71
+7-->/Users/alan/StudioProjects/social-ready/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest12988146405643269175.xml:5:42-71
 8
 9    <instrumentation
-9-->/Users/alan/StudioProjects/social-ready/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest14310182728478052075.xml:11:5-15:77
+9-->/Users/alan/StudioProjects/social-ready/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest12988146405643269175.xml:11:5-15:77
 10        android:name="android.support.test.runner.AndroidJUnitRunner"
-10-->/Users/alan/StudioProjects/social-ready/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest14310182728478052075.xml:11:22-83
+10-->/Users/alan/StudioProjects/social-ready/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest12988146405643269175.xml:11:22-83
 11        android:functionalTest="false"
-11-->/Users/alan/StudioProjects/social-ready/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest14310182728478052075.xml:14:22-52
+11-->/Users/alan/StudioProjects/social-ready/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest12988146405643269175.xml:14:22-52
 12        android:handleProfiling="false"
-12-->/Users/alan/StudioProjects/social-ready/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest14310182728478052075.xml:13:22-53
+12-->/Users/alan/StudioProjects/social-ready/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest12988146405643269175.xml:13:22-53
 13        android:label="Tests for com.example.a5755.sosoready"
-13-->/Users/alan/StudioProjects/social-ready/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest14310182728478052075.xml:15:22-75
+13-->/Users/alan/StudioProjects/social-ready/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest12988146405643269175.xml:15:22-75
 14        android:targetPackage="com.example.a5755.sosoready" />
-14-->/Users/alan/StudioProjects/social-ready/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest14310182728478052075.xml:12:22-73
+14-->/Users/alan/StudioProjects/social-ready/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest12988146405643269175.xml:12:22-73
 15
 16    <application
-16-->/Users/alan/StudioProjects/social-ready/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest14310182728478052075.xml:7:5-9:19
+16-->/Users/alan/StudioProjects/social-ready/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest12988146405643269175.xml:7:5-9:19
 17        android:debuggable="true"
 18        android:extractNativeLibs="true" >
 19        <uses-library android:name="android.test.runner" />
-19-->/Users/alan/StudioProjects/social-ready/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest14310182728478052075.xml:8:9-60
-19-->/Users/alan/StudioProjects/social-ready/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest14310182728478052075.xml:8:23-57
+19-->/Users/alan/StudioProjects/social-ready/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest12988146405643269175.xml:8:9-60
+19-->/Users/alan/StudioProjects/social-ready/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest12988146405643269175.xml:8:23-57
 20    </application>
 21
 22</manifest>
