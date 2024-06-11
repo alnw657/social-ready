@@ -1,126 +1,122 @@
 [
     {
-        "merged": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-debug-5:/layout-hdpi_activity_main.xml.flat",
-        "source": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-main-7:/layout-hdpi/activity_main.xml"
+        "merged": "com.example.a5755.sosoready.app-debug-5:/layout-ldpi_image_effect.xml.flat",
+        "source": "com.example.a5755.sosoready.app-main-7:/layout-ldpi/image_effect.xml"
     },
     {
-        "merged": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-debug-5:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-main-7:/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "com.example.a5755.sosoready.app-debug-5:/layout_image_save.xml.flat",
+        "source": "com.example.a5755.sosoready.app-main-7:/layout/image_save.xml"
     },
     {
-        "merged": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-debug-5:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-main-7:/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "com.example.a5755.sosoready.app-debug-5:/layout-mdpi_image_save.xml.flat",
+        "source": "com.example.a5755.sosoready.app-main-7:/layout-mdpi/image_save.xml"
     },
     {
-        "merged": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-debug-5:/layout-mdpi_activity_main.xml.flat",
-        "source": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-main-7:/layout-mdpi/activity_main.xml"
+        "merged": "com.example.a5755.sosoready.app-debug-5:/layout_activity_main.xml.flat",
+        "source": "com.example.a5755.sosoready.app-main-7:/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-debug-5:/drawable_normal.png.flat",
-        "source": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-main-7:/drawable/normal.png"
+        "merged": "com.example.a5755.sosoready.app-debug-5:/anim_slide_in_right.xml.flat",
+        "source": "com.example.a5755.sosoready.app-main-7:/anim/slide_in_right.xml"
     },
     {
-        "merged": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-debug-5:/drawable_red.png.flat",
-        "source": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-main-7:/drawable/red.png"
+        "merged": "com.example.a5755.sosoready.app-debug-5:/layout_image_effect.xml.flat",
+        "source": "com.example.a5755.sosoready.app-main-7:/layout/image_effect.xml"
+    },
+    {
+        "merged": "com.example.a5755.sosoready.app-debug-5:/layout-hdpi_image_effect.xml.flat",
+        "source": "com.example.a5755.sosoready.app-main-7:/layout-hdpi/image_effect.xml"
+    },
+    {
+        "merged": "com.example.a5755.sosoready.app-debug-5:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.a5755.sosoready.app-main-7:/mipmap-mdpi/ic_launcher.png"
     },
     {
         "merged": "com.example.a5755.sosoready.app-debug-5:/layout-xhdpi_activity_main.xml.flat",
         "source": "com.example.a5755.sosoready.app-main-7:/layout-xhdpi/activity_main.xml"
     },
     {
-        "merged": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-debug-5:/anim_slide_out_left.xml.flat",
-        "source": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-main-7:/anim/slide_out_left.xml"
+        "merged": "com.example.a5755.sosoready.app-debug-5:/anim_slide_out_right.xml.flat",
+        "source": "com.example.a5755.sosoready.app-main-7:/anim/slide_out_right.xml"
     },
     {
-        "merged": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-debug-5:/layout-xhdpi_activity_main.xml.flat",
-        "source": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-main-7:/layout-xhdpi/activity_main.xml"
+        "merged": "com.example.a5755.sosoready.app-debug-5:/layout-mdpi_image_effect.xml.flat",
+        "source": "com.example.a5755.sosoready.app-main-7:/layout-mdpi/image_effect.xml"
     },
     {
-        "merged": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-debug-5:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-main-7:/mipmap-mdpi/ic_launcher.png"
+        "merged": "com.example.a5755.sosoready.app-debug-5:/drawable_bw.png.flat",
+        "source": "com.example.a5755.sosoready.app-main-7:/drawable/bw.png"
     },
     {
-        "merged": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-debug-5:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-main-7:/mipmap-xhdpi/ic_launcher.png"
+        "merged": "com.example.a5755.sosoready.app-debug-5:/layout-ldpi_activity_main.xml.flat",
+        "source": "com.example.a5755.sosoready.app-main-7:/layout-ldpi/activity_main.xml"
     },
     {
-        "merged": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-debug-5:/layout-xhdpi_image_save.xml.flat",
-        "source": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-main-7:/layout-xhdpi/image_save.xml"
+        "merged": "com.example.a5755.sosoready.app-debug-5:/drawable_normal.png.flat",
+        "source": "com.example.a5755.sosoready.app-main-7:/drawable/normal.png"
     },
     {
-        "merged": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-debug-5:/layout-ldpi_image_save.xml.flat",
-        "source": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-main-7:/layout-ldpi/image_save.xml"
+        "merged": "com.example.a5755.sosoready.app-debug-5:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.a5755.sosoready.app-main-7:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-debug-5:/drawable_bg1.png.flat",
-        "source": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-main-7:/drawable/bg1.png"
+        "merged": "com.example.a5755.sosoready.app-debug-5:/layout-mdpi_activity_main.xml.flat",
+        "source": "com.example.a5755.sosoready.app-main-7:/layout-mdpi/activity_main.xml"
     },
     {
-        "merged": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-debug-5:/drawable_bw.png.flat",
-        "source": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-main-7:/drawable/bw.png"
+        "merged": "com.example.a5755.sosoready.app-debug-5:/drawable_bg1.png.flat",
+        "source": "com.example.a5755.sosoready.app-main-7:/drawable/bg1.png"
     },
     {
-        "merged": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-debug-5:/layout-hdpi_image_effect.xml.flat",
-        "source": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-main-7:/layout-hdpi/image_effect.xml"
+        "merged": "com.example.a5755.sosoready.app-debug-5:/drawable_pinkie.png.flat",
+        "source": "com.example.a5755.sosoready.app-main-7:/drawable/pinkie.png"
     },
     {
-        "merged": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-debug-5:/layout-hdpi_image_save.xml.flat",
-        "source": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-main-7:/layout-hdpi/image_save.xml"
+        "merged": "com.example.a5755.sosoready.app-debug-5:/layout-xhdpi_image_effect.xml.flat",
+        "source": "com.example.a5755.sosoready.app-main-7:/layout-xhdpi/image_effect.xml"
     },
     {
-        "merged": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-debug-5:/anim_slide_in_left.xml.flat",
-        "source": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-main-7:/anim/slide_in_left.xml"
+        "merged": "com.example.a5755.sosoready.app-debug-5:/drawable_alaska.png.flat",
+        "source": "com.example.a5755.sosoready.app-main-7:/drawable/alaska.png"
     },
     {
-        "merged": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-debug-5:/layout_image_save.xml.flat",
-        "source": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-main-7:/layout/image_save.xml"
+        "merged": "com.example.a5755.sosoready.app-debug-5:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.a5755.sosoready.app-main-7:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-debug-5:/layout_activity_main.xml.flat",
-        "source": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-main-7:/layout/activity_main.xml"
+        "merged": "com.example.a5755.sosoready.app-debug-5:/layout-hdpi_activity_main.xml.flat",
+        "source": "com.example.a5755.sosoready.app-main-7:/layout-hdpi/activity_main.xml"
     },
     {
-        "merged": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-debug-5:/anim_slide_in_right.xml.flat",
-        "source": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-main-7:/anim/slide_in_right.xml"
+        "merged": "com.example.a5755.sosoready.app-debug-5:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.a5755.sosoready.app-main-7:/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-debug-5:/layout_image_effect.xml.flat",
-        "source": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-main-7:/layout/image_effect.xml"
+        "merged": "com.example.a5755.sosoready.app-debug-5:/drawable_red.png.flat",
+        "source": "com.example.a5755.sosoready.app-main-7:/drawable/red.png"
     },
     {
-        "merged": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-debug-5:/drawable_pinkie.png.flat",
-        "source": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-main-7:/drawable/pinkie.png"
+        "merged": "com.example.a5755.sosoready.app-debug-5:/anim_slide_in_left.xml.flat",
+        "source": "com.example.a5755.sosoready.app-main-7:/anim/slide_in_left.xml"
     },
     {
-        "merged": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-debug-5:/layout-ldpi_image_effect.xml.flat",
-        "source": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-main-7:/layout-ldpi/image_effect.xml"
+        "merged": "com.example.a5755.sosoready.app-debug-5:/layout-ldpi_image_save.xml.flat",
+        "source": "com.example.a5755.sosoready.app-main-7:/layout-ldpi/image_save.xml"
     },
     {
-        "merged": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-debug-5:/layout-mdpi_image_save.xml.flat",
-        "source": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-main-7:/layout-mdpi/image_save.xml"
+        "merged": "com.example.a5755.sosoready.app-debug-5:/anim_slide_out_left.xml.flat",
+        "source": "com.example.a5755.sosoready.app-main-7:/anim/slide_out_left.xml"
     },
     {
-        "merged": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-debug-5:/anim_slide_out_right.xml.flat",
-        "source": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-main-7:/anim/slide_out_right.xml"
+        "merged": "com.example.a5755.sosoready.app-debug-5:/layout-hdpi_image_save.xml.flat",
+        "source": "com.example.a5755.sosoready.app-main-7:/layout-hdpi/image_save.xml"
     },
     {
-        "merged": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-debug-5:/layout-ldpi_activity_main.xml.flat",
-        "source": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-main-7:/layout-ldpi/activity_main.xml"
+        "merged": "com.example.a5755.sosoready.app-debug-5:/layout-xhdpi_image_save.xml.flat",
+        "source": "com.example.a5755.sosoready.app-main-7:/layout-xhdpi/image_save.xml"
     },
     {
-        "merged": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-debug-5:/layout-xhdpi_image_effect.xml.flat",
-        "source": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-main-7:/layout-xhdpi/image_effect.xml"
-    },
-    {
-        "merged": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-debug-5:/drawable_alaska.png.flat",
-        "source": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-main-7:/drawable/alaska.png"
-    },
-    {
-        "merged": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-debug-5:/layout-mdpi_image_effect.xml.flat",
-        "source": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-main-7:/layout-mdpi/image_effect.xml"
-    },
-    {
-        "merged": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-debug-5:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/Users/alan/.gradle/daemon/8.6/com.example.a5755.sosoready.app-main-7:/mipmap-hdpi/ic_launcher.png"
+        "merged": "com.example.a5755.sosoready.app-debug-5:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.a5755.sosoready.app-main-7:/mipmap-xhdpi/ic_launcher.png"
     }
 ]

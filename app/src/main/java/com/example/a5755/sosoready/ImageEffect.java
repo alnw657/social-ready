@@ -6,7 +6,6 @@ import android.graphics.BitmapFactory;
 import android.graphics.ColorFilter;
 import android.graphics.ColorMatrixColorFilter;
 import android.graphics.PorterDuff;
-import android.media.MediaScannerConnection;
 import android.os.Bundle;
 import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
@@ -14,21 +13,19 @@ import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
-
-import java.io.ByteArrayOutputStream;
-import java.io.File;
-import java.io.FileOutputStream;
 import java.io.IOException;
-import java.util.Calendar;
-
+import android.content.ContentValues;
+import android.net.Uri;
+import android.os.Build;
+import android.provider.MediaStore;
+import java.io.OutputStream;
 
 /**
  * Created by Alan on 2/7/2018.
  */
 
 public class ImageEffect extends AppCompatActivity{
-    private static final  String IMAGE_DIRECTORY = "/imageAPP";
-
+    private static final int IMAGE_COMPRESSION_QUALITY = 100;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -92,31 +89,38 @@ public class ImageEffect extends AppCompatActivity{
 
     }
 
-    private String saveImageBitmap(Bitmap bitmap) {
-ByteArrayOutputStream bytes = new ByteArrayOutputStream();
-        bitmap.compress(Bitmap.CompressFormat.JPEG, 90,bytes);
+    private void saveImageBitmap(Bitmap bitmap) {
+        if (bitmap == null) {
+            Log.e("TAG", "Bitmap is null. Cannot save image.");
+            return;
+        }
 
-        File imageDirectory = new File(Environment.getExternalStorageDirectory()+IMAGE_DIRECTORY);
-        if(!imageDirectory.exists())
-            imageDirectory.mkdir();
+        // Use MediaStore API to insert the image into the device's MediaStore
+        ContentValues values = new ContentValues();
+        values.put(MediaStore.Images.Media.DISPLAY_NAME, "image_" + System.currentTimeMillis() + ".jpg");
+        values.put(MediaStore.Images.Media.MIME_TYPE, "image/jpeg");
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
+            values.put(MediaStore.Images.Media.RELATIVE_PATH, Environment.DIRECTORY_PICTURES);
+        } else {
+            values.put(MediaStore.Images.Media.DATA, Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES).getPath());
+        }
+
+        Uri imageUri = getContentResolver().insert(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, values);
 
         try {
-            File jpg = new File(imageDirectory, Calendar.getInstance().getTimeInMillis()+".jpg");
-            jpg.createNewFile();
-            FileOutputStream fo = new FileOutputStream(jpg);
-            fo.write(bytes.toByteArray());
-            MediaScannerConnection.scanFile(this, new String[]{jpg.getPath()}, new String[]{"image/jpeg"}, null);
-            fo.close();
-            Log.d("TAG", "Saved !"+jpg.getAbsolutePath());
-            return jpg.getAbsolutePath();
-
+            OutputStream os = getContentResolver().openOutputStream(imageUri);
+            bitmap.compress(Bitmap.CompressFormat.JPEG, IMAGE_COMPRESSION_QUALITY, os);
+            if (os != null) {
+                os.close();
+            }
+            Toast.makeText(this, "Image saved successfully", Toast.LENGTH_SHORT).show();
         } catch (IOException e) {
-            e.printStackTrace();
-            Toast.makeText(this, "Unsucessful" + e, Toast.LENGTH_LONG).show();
-
+            Log.e("TAG", "Error saving image: " + e.getMessage());
+            Toast.makeText(this, "Failed to save image", Toast.LENGTH_SHORT).show();
         }
-        return "";
     }
+
 
     private void setBW(ImageView iv){
 

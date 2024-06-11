@@ -9,8 +9,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
-
-
+import android.Manifest;
+import android.content.pm.PackageManager;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 
@@ -25,6 +27,9 @@ public class MainActivity extends AppCompatActivity {
     private static final  String IMAGE_DIRECTORY = "/imageAPP";
     private final int GALLERY = 1, CAMERA = 2;
 
+    private static final int CAMERA_PERMISSION_REQUEST_CODE = 100;
+    private static final int CAMERA_REQUEST_CODE = 101;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,10 +39,27 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+ //   public void OpenCamera(View view) {
+    //    Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+      //  startActivityForResult(intent, CAMERA);
+
+    //}
     public void OpenCamera(View view) {
-        Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-        startActivityForResult(intent, CAMERA);
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
+            // Permission not granted, request it
+            ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.CAMERA}, CAMERA_PERMISSION_REQUEST_CODE);
+        } else {
+            // Permission granted, open camera
+            startCamera();
+        }
     }
+
+    private void startCamera() {
+        Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+        startActivityForResult(intent, CAMERA_REQUEST_CODE);
+    }
+
+
 
     public void OpenPhotos(View view) {
         Intent intent = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
@@ -75,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         }
-        else if (requestCode == CAMERA)
+        else if (requestCode == CAMERA_REQUEST_CODE)
         {
 
                 Bitmap thumbnail = (Bitmap) data.getExtras().get("data");
